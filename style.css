@@ -1,0 +1,71 @@
+* {
+    background: #000;
+    color: white;
+
+}
+
+.lowercase {
+    font-size: small;
+    color: mediumvioletred;
+    position: absolute;
+    top: 80px;
+}
+
+.fa-user {
+    color: white;
+    font-size: small;
+    background: linear-gradient(95deg, #FFFFFF -343.09%, rgba(255, 255, 255, 0) 110.96%);
+    padding: 8px;
+    border-radius: 15px;
+
+}
+
+.position {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.position h1 {
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.picture-part{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.picture {
+    position: absolute;
+    width: 534px;
+    height: 704px;
+    left: 93px;
+    top: 200px;
+}
+.upper-text-part p {
+    position: absolute;
+    top: 198px;
+    line-height: 12px;
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+    opacity: 0.5;
+    letter-spacing: 1px;
+
+}
+.upper-text-part h1{
+    position: absolute;
+    top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 6px;
+    
+   
+}
