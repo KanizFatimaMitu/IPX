@@ -1,18 +1,20 @@
 * {
     background: #000;
-    color: white;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+
 
 }
 
 .lowercase {
-    font-size: small;
+    font-size: large;
     color: mediumvioletred;
     position: absolute;
-    top: 80px;
+    top: 70px;
 }
 
 .fa-user {
-    color: white;
+    color: #FFFFFF;
     font-size: small;
     background: linear-gradient(95deg, #FFFFFF -343.09%, rgba(255, 255, 255, 0) 110.96%);
     padding: 8px;
@@ -51,53 +53,187 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 
-
+}
+.text-box{
+    margin: auto;
+    width: 40%;
 }
 
 .picture {
-    position: absolute;
-    width: 534px;
-    height: 704px;
-    left: 93px;
-    top: 200px;
+   margin-left: 90px;
+    width: 500px;
+    height: 700px;
+
 }
 
 .upper-text-part p {
-    position: absolute;
-    top: 198px;
     line-height: 12px;
     font-family: monospace;
     font-size: 10px;
     font-weight: 500;
-    color: #FFFFFF;
     opacity: 0.5;
     letter-spacing: 1px;
-
 }
 
 .upper-text-part h1 {
-    position: absolute;
-    top: 200px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 28px;
-    letter-spacing: 6px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-top: -8px;
 }
 
 .horizontal-first {
-    position: absolute;
-    top: 280px;
-    right: 160px;
     width: 600px;
     opacity: 0.2;
-    height: 0;
+    height: 0px;
 }
-.horizontal-second{
-    position: absolute;
-    top: 380px;
-    right: 160px;
+
+.horizontal-second {
     width: 600px;
     opacity: 0.2;
-    height: 0;
+    height: 0px;
+}
+
+.project-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -70px;
+    margin-top: -9px;
+    margin-bottom: -9px;
+}
+
+.project-detail p {
+    font-family: monospace;
+    font-size: x-small;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
+
+.project-detail h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: -8px;
+    opacity: 0.9;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.box-time-text {
+    text-align: start;
+    margin-left: 25px;
+    padding: 2px;
+}
+
+.price-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 360px;
+
+}
+
+.price-detail h1 {
+    font-weight: bolder;
+    margin-top: -15px;
+}
+
+.price-detail p {
+    font-size: small;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
+
+.pay-text {
+    margin-left: 30px;
+    font-size: small;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    margin-top: 50px;
+}
+
+.pay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 260px;
+    
+}
+
+.stripe {
+    width: 100px;
+    height: 45px;
+}
+
+.paypal {
+    background: rgba(255, 31, 31, 0.09);
+    border: 0.2px #E47298 inset;
+    border-radius: 10px;
+    padding: 10px;
+    width: 110px;
+    height: 28px;
+}
+
+.fa-check {
+    color: #000;
+    font-size: xx-small;
+    padding: 2px;
+    border-radius: 10px;
+    background: radial-gradient(86.07% 145.35% at 28.05% 86.07%, #3E67FF 0%, #E47298 100%);
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -5px;
+}
+
+.fa-stop {
+    color: #FFFFFF;
+}
+
+.checkbox {
+    font-size: small;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    margin-left: 28px;
+    margin-top: 70px;
+}
+
+.button-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.buy-now {
+    background: radial-gradient(86.07% 145.35% at 28.05% 86.07%, #3E67FF 0%, #E47298 100%);
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+}
+
+.call-back {
+    background: rgba(255, 31, 31, 0.11);
+    border-radius: 10px;
+    border: 0.2px solid  #E47298;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 130px;
+    margin-left: 10px;
+}
+.box{
+    border: 1px solid #FFFFFF;
+    margin-top: 50px;
 }
